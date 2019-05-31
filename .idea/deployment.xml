@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="lab529">
+    <serverData>
+      <paths name="lab529">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/workspace/webserver" local="$PROJECT_DIR$/Webserver" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
