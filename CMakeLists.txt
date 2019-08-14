@@ -6,3 +6,10 @@ set(CMAKE_CXX_STANDARD 14)
 add_subdirectory(Practice)
 
 add_executable(Cplusplus base.cpp)
+
+add_executable(ExamBase exam_base.cpp)
+add_executable(Exam exam.cpp)
+add_executable(Exam2 exam2.cpp)
+add_executable(Test test.cpp)
+add_executable(STL STL.cpp)
+#add_executable(Scratch scratch.cpp)

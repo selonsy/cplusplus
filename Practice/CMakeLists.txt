@@ -8,3 +8,5 @@ add_executable(Practice-test test.cpp)
 add_executable(Practice-xuetangzaixian xuetangzaixian.cpp)
 
 add_executable(Practice-leetcode leetcode.cpp)
+
+add_executable(Practice-leetcode-cn leetcode-cn.cpp)
