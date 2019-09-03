@@ -64,7 +64,6 @@ vector<string> split(const string &str, const string &delim) {
         res.push_back(s); //存入结果数组
         p = strtok(NULL, d);
     }
-
     return res;
 }
 
