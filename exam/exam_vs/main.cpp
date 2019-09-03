@@ -1,4 +1,4 @@
-﻿#include<iostream>
+#include<iostream>
 #include<algorithm>
 #include<vector>
 #include<set>
@@ -13,8 +13,8 @@ using namespace std;
 
 int main()
 {
-	vector<int> vec = {1,2,3,4,5};
-	for (auto x:vec)
+	vector<int> vec = { 1,2,3,4,5 };
+	for (auto x : vec)
 	{
 		cout << x << endl;
 	}
