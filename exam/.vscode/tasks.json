@@ -9,6 +9,8 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
+                "-Wall",
+                "-std=c++11",
                 "${file}",
                 "-o",
                 "${fileDirname}/output/${fileBasenameNoExtension}"
