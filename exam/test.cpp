@@ -7,16 +7,27 @@
 #include <stdbool.h>
 #include <algorithm>
 #include <string>
-#include <vector>   
+#include <vector>
 #include <iostream>
 #include <math.h>
+#include <set>
+#include <stack>
+#include <queue>
 using namespace std;
 
 int main()
 {
-    cout << "Hello Fuck You !"<<endl;
-    int n;
-    cin >> n;
-    cout << "The Number is " << n << endl;
-    return 0;
+    stack<int> si;
+    stack<char> sc;
+    stack<string> ss;
+
+    vector<int> vi;
+    vector<char> vc;
+    vector<string> vs;
+
+    queue<int> qi;
+    queue<char> qc;
+    queue<string> qs;
+
+    cout<<vi.capacity()<<endl;
 }

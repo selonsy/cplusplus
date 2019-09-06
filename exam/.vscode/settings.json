@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stack": "cpp",
+        "set": "cpp",
+        "vector": "cpp",
+        "queue": "cpp"
+    }
+}

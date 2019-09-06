@@ -10,6 +10,9 @@
 #include <vector>
 #include <iostream>
 #include <math.h>
+#include <set>
+#include <stack>
+#include <queue>
 using namespace std;
 
 void func()
@@ -18,8 +21,6 @@ void func()
 
 int main()
 {
-    string s = to_string(9527);
-    // vector<int> vec = {1, 2, 3, 4, 5};
 
     return 0;
 }
