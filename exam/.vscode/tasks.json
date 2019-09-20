@@ -5,15 +5,14 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "g++ build active file",
-            "command": "/usr/bin/g++",
+            "label": "clang++ build active file",
+            "command": "/usr/bin/clang++",
             "args": [
-                "-g",
-                "-Wall",
                 "-std=c++11",
+                "-g",
                 "${file}",
                 "-o",
-                "${workspaceRoot}/output/${fileBasenameNoExtension}"
+                "${workspaceRoot}/.tempfiles/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "/usr/bin"
@@ -21,10 +20,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "group": "build"
         }
     ]
 }

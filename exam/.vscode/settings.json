@@ -1,8 +1,29 @@
 {
+    "clang.cxxflags": [
+        "-std=c++17"
+    ],
+    "clang.cflags": [
+        "-std=c11"
+    ],
+    "files.exclude": {
+        "**/.tempfiles": true,
+        "exam.sln": true
+    },
     "files.associations": {
-        "stack": "cpp",
-        "set": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "new": "cpp",
         "vector": "cpp",
-        "queue": "cpp"
-    }
+        "iosfwd": "cpp",
+        "list": "cpp",
+        "future": "cpp",
+        "random": "cpp",
+        "__tuple": "cpp",
+        "array": "cpp",
+        "algorithm": "cpp",
+        "utility": "cpp"
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true
 }
