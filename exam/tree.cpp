@@ -30,6 +30,6 @@ void _PrevOrder(Node *_root)
 //2.中序遍历
 void PrevOrder()
 {
-    _PrevOrder(_root);
+    // _PrevOrder(_root);
     cout << endl;
 }

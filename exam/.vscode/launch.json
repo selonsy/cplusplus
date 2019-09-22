@@ -16,6 +16,14 @@
             "externalConsole": true,
             "MIMode": "lldb",
             "preLaunchTask": "clang++ build active file"
+        },
+        {
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "pythonPath": "${config:python.pythonPath}",
+            "program": "${file}",
+            // "console": "externalTerminal"
         }
     ]
 }
