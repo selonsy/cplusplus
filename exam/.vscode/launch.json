@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(lldb) Launch",
+            "name": "(lldb) Launch Single File",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceRoot}/.tempfiles/${fileBasenameNoExtension}",
@@ -16,6 +16,19 @@
             "externalConsole": true,
             "MIMode": "lldb",
             "preLaunchTask": "clang++ build active file"
+        },
+        {
+            "name": "(lldb) Launch Multi Files",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/.tempfiles/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "preLaunchTask": "clang++ build multi files"
         },
         {
             "name": "Python",

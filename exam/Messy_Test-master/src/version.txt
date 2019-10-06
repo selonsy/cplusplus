@@ -1,0 +1,53 @@
+1. googletest:
+	version: 1.8.0
+	commit: ec44c6c
+	date: 2016.08.22
+	url: https://github.com/google/googletest/releases/tag/release-1.8.0
+2. spdlog:
+	version: 0.14.0
+	commit: 4fba14c
+	date: 2017.08.20
+	url: https://github.com/gabime/spdlog/releases
+3. cJSON:
+	version: 1.7.7
+	commit: 86234db
+	date: 2018.05.22
+	url: https://github.com/DaveGamble/cJSON/releases
+4. yaml-cpp:
+	version: 0.6.2
+	commint: 562aefc
+	date: 2018.03.06
+	url: https://github.com/jbeder/yaml-cpp/releases
+5. json11:
+	commit: 05b5514
+	date: 2016.05.05
+	url: https://github.com/dropbox/json11
+6. drmemory:
+	version: 1.10.1
+	commit: 19baf9e
+	date: 2016.04.11
+	url: https://github.com/DynamoRIO/drmemory/releases?after=cronbuild-1.11.17596C
+7. vld(Visual Leak Detector):
+	version: v2.4rc
+	commit: a14ae76
+	date: 2014.03.27
+	url: https://github.com/KindDragon/vld/releases
+8. miniz:
+	version: v114
+	commit: 48605fb
+	date: 2013.10.14
+	url: https://github.com/richgel999/miniz/releases?after=2.0.0
+9. RapidJSON:
+	version: v1.1.0
+	commint: f54b0e4
+	date: 2016.08.25
+	url: https://github.com/Tencent/rapidjson/releases
+10. libuuid:
+	version: 1.0.3
+	date: 2013.04.27
+	url: https://sourceforge.net/projects/libuuid/
+11. TinyXML2:
+	version: 7.1.0
+	commit: 9c740e8
+	date: 2019.08.11
+	url: https://github.com/leethomason/tinyxml2/releases

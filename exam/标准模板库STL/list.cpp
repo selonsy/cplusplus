@@ -196,4 +196,8 @@ int main()
     list1.swap(list3);
     put_list(list1, "list1");
     put_list(list3, "list3");
+
+    // list3.remove_if();
+    list3.remove(9);
+    put_list(list3, "list3");
 }

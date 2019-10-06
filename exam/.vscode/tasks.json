@@ -8,7 +8,7 @@
             "label": "clang++ build active file",
             "command": "/usr/bin/clang++",
             "args": [
-                "-std=c++11",
+                "-std=c++17",
                 "-g",
                 "${file}",
                 "-o",
@@ -21,6 +21,11 @@
                 "$gcc"
             ],
             "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "clang++ build multi files",
+            "command": "make"
         }
     ]
 }

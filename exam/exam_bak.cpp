@@ -17,9 +17,7 @@
 #include <list>
 
 using namespace std;
-
+// #define long long LL;
 int main()
 {
-    
-    return 0;
 }
