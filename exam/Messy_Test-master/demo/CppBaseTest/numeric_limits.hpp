@@ -1,6 +1,0 @@
-#ifndef FBC_CPP_BASE_TEST_NUMERIC_LIMITS_HPP_
-#define FBC_CPP_BASE_TEST_NUMERIC_LIMITS_HPP_
-
-int test_numeric_limits_1();
-
-#endif // FBC_CPP_BASE_TEST_NUMERIC_LIMITS_HPP_

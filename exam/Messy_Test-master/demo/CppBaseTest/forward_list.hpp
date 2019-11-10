@@ -1,6 +1,0 @@
-#ifndef FBC_CPP_BASE_TEST_FORWARD_LIST_HPP_
-#define FBC_CPP_BASE_TEST_FORWARD_LIST_HPP_
-
-int test_forward_list_1();
-
-#endif // FBC_CPP_BASE_TEST_FORWARD_LIST_HPP_
